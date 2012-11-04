@@ -1,0 +1,83 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3174), pid=4276, tid=372
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 6.0_18-b05
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (16.0-b12 mixed mode windows-amd64 )
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000001ab800):  JavaThread "Unknown thread" [_thread_in_vm, id=372, stack(0x0000000002450000,0x0000000002550000)]
+
+Stack: [0x0000000002450000,0x0000000002550000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00000000001ab800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=372, stack(0x0000000002450000,0x0000000002550000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x0000000000400000 - 0x000000000042e000 	C:\Program Files\Java\jdk1.6.0_18\bin\javaw.exe
+0x0000000077590000 - 0x0000000077716000 	C:\Windows\system32\ntdll.dll
+0x0000000077460000 - 0x000000007758d000 	C:\Windows\system32\kernel32.dll
+0x000007fefe060000 - 0x000007fefe168000 	C:\Windows\system32\ADVAPI32.dll
+0x000007fefe610000 - 0x000007fefe753000 	C:\Windows\system32\RPCRT4.dll
+0x0000000077020000 - 0x00000000770ed000 	C:\Windows\system32\USER32.dll
+0x000007fefe760000 - 0x000007fefe7c4000 	C:\Windows\system32\GDI32.dll
+0x000007fefe450000 - 0x000007fefe47d000 	C:\Windows\system32\IMM32.DLL
+0x000007feff700000 - 0x000007feff802000 	C:\Windows\system32\MSCTF.dll
+0x000007fefe520000 - 0x000007fefe5bc000 	C:\Windows\system32\msvcrt.dll
+0x000007fefe050000 - 0x000007fefe05d000 	C:\Windows\system32\LPK.DLL
+0x000007fefe480000 - 0x000007fefe51a000 	C:\Windows\system32\USP10.dll
+0x000000006d890000 - 0x000000006df34000 	C:\Program Files\Java\jdk1.6.0_18\jre\bin\server\jvm.dll
+0x000007fefabf0000 - 0x000007fefac29000 	C:\Windows\system32\WINMM.dll
+0x000007fefe1d0000 - 0x000007fefe3a8000 	C:\Windows\system32\ole32.dll
+0x000007fefe7d0000 - 0x000007fefe8a3000 	C:\Windows\system32\OLEAUT32.dll
+0x0000000074610000 - 0x0000000074662000 	C:\Windows\system32\OLEACC.dll
+0x000000006d800000 - 0x000000006d80e000 	C:\Program Files\Java\jdk1.6.0_18\jre\bin\verify.dll
+0x000000006d450000 - 0x000000006d477000 	C:\Program Files\Java\jdk1.6.0_18\jre\bin\java.dll
+0x000000006d3b0000 - 0x000000006d3ba000 	C:\Program Files\Java\jdk1.6.0_18\jre\bin\hpi.dll
+0x0000000077730000 - 0x0000000077739000 	C:\Windows\system32\PSAPI.DLL
+0x000000006d850000 - 0x000000006d862000 	C:\Program Files\Java\jdk1.6.0_18\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=Cp1252 -Xbootclasspath:C:\android-programming\android-sdk-windows\platforms\android-2.0.1\android.jar 
+java_command: onCreate
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+CLASSPATH=.;C:\Program Files (x86)\Java\jre6\lib\ext\QTJava.zip
+PATH=C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;i:\lua5.1;i:\lua5.1\clibs;C:\Program Files (x86)\Common Files\DivX Shared\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\XviD MPEG-4 Video Codec 1.2.1 64-BIT;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;F:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Mercurial\;C:\Program Files (x86)\QuickTime\QTSystem\
+USERNAME=NHaul
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=AMD64 Family 16 Model 2 Stepping 3, AuthenticAMD
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows Vista Build 6002 Service Pack 2
+
+CPU:total 3 (3 cores per cpu, 1 threads per core) family 16 model 2 stepping 3, cmov, cx8, fxsr, mmx, sse, sse2, sse3, popcnt, mmxext, 3dnow, 3dnowext, lzcnt, sse4a
+
+Memory: 4k page, physical 4176784k(1290484k free), swap 8587420k(3432048k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (16.0-b12) for windows-amd64 JRE (1.6.0_18-ea-b05), built on Nov 18 2009 00:44:40 by "java_re" with MS VC++ 8.0 (VS2005)
+
+time: Fri Mar 02 16:22:18 2012
+elapsed time: 0 seconds
+

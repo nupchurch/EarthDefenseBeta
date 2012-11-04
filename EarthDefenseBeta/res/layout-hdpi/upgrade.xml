@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/upgrademenu" android:visibility="visible"
+	android:clipChildren="false" android:clipToPadding="false"
+	android:layout_gravity="center" android:layout_height="125dip" android:layout_width="168dip">
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:orientation="vertical" android:background="#aa303040"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		
+		<FrameLayout android:id="@+id/FrameLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:background="#55AAAAFF"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Capacitor" android:id="@+id/upgradelabel" android:layout_gravity="center" android:textSize="12dip" android:shadowColor="#ffffff" android:shadowRadius="2" android:shadowDx="1" android:shadowDy="1" android:textColor="#FFFFFF"></TextView>
+</FrameLayout><FrameLayout android:id="@+id/FrameLayout02" android:background="#000000" android:layout_width="fill_parent" android:layout_height="1dip"></FrameLayout><LinearLayout android:id="@+id/LinearLayout02"
+			android:orientation="horizontal" android:layout_height="fill_parent"
+			android:layout_width="fill_parent" android:layout_weight="1" android:layout_marginTop="2dip">
+
+			<Button android:layout_width="fill_parent"
+				android:layout_weight="1"
+				android:id="@+id/SubButton" android:text="Destroy, Refund: 00bp" android:textSize="8dip" android:layout_height="fill_parent"></Button>
+
+
+			<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/CurrentLvlLayout"><TextView android:id="@+id/TextView03" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="10dip" android:text="Current" android:layout_gravity="center_horizontal"></TextView><TextView android:id="@+id/TextView05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="level" android:textSize="10dip" android:layout_gravity="center_horizontal"></TextView><TextView android:text="00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ValueText" android:layout_marginBottom="5dip" android:layout_gravity="center_horizontal">
+				</TextView></LinearLayout>
+
+			<FrameLayout android:id="@+id/LinearLayout06" android:layout_weight="1" android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical"><Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/AddButton" android:layout_weight="2" android:textSize="8dip"></Button>
+
+</FrameLayout>
+
+
+
+
+
+</LinearLayout><LinearLayout android:id="@+id/LinearLayout05" android:background="#aa000000" android:layout_width="fill_parent" android:layout_height="1dip">
+		</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout03" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="53dip"><LinearLayout android:id="@+id/LinearLayout09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"></LinearLayout>
+
+
+<LinearLayout android:background="#5500FF00" android:id="@+id/select1highlight" android:visibility="visible" android:layout_height="fill_parent" android:layout_width="53dip" android:layout_margin="1dip"><ImageButton android:background="@drawable/ed_st_n_1234" android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/OptionOneButton"></ImageButton>
+</LinearLayout><LinearLayout android:background="#5500FF00" android:id="@+id/select2highlight" android:layout_height="fill_parent" android:layout_width="53dip" android:layout_margin="1dip"><ImageButton android:background="@drawable/ed_glowcap" android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/OptionTwoButton"></ImageButton></LinearLayout>
+<LinearLayout android:background="#5500FF00" android:id="@+id/select3highlight" android:layout_height="fill_parent" android:layout_width="53dip" android:layout_margin="1dip"><ImageButton android:background="@drawable/ed_gun1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/OptionThreeButton"></ImageButton>
+</LinearLayout><LinearLayout android:id="@+id/LinearLayout08" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="wrap_content"></LinearLayout>
+
+
+
+</LinearLayout>
+
+
+</LinearLayout>
+
+</RelativeLayout>
